@@ -12,6 +12,7 @@ namespace Singleton.RealWolrd
             LoadBalancer b2 = LoadBalancer.GetLoadBalancer();
             LoadBalancer b3 = LoadBalancer.GetLoadBalancer();
             LoadBalancer b4 = LoadBalancer.GetLoadBalancer();
+            LoadBalancer b5 = LoadBalancer.GetLoadBalancer();
 
             //샘플 인스턴스
 
