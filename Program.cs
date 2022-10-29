@@ -11,6 +11,7 @@ namespace app
     {
         static void Main(string[] args)
         {
+            #region - 입력값
             //Console.WriteLine(-1 * 1);
             //Console.WriteLine("안녕하세요");
             //Console.WriteLine(solution("one4seveneight"));
@@ -66,8 +67,27 @@ namespace app
             //Console.WriteLine(Solution34.solution34(10, 2));
             // string[] sampleData14 = {"o", "one", "even", "never", "raw", "aim"};
             // Console.WriteLine(Solution35.solution35(2, sampleData14));
-            string[] sampleData15 = {"sun", "bed", "car"};
-            Console.WriteLine(Solution36.solution(sampleData15, 1));
+            // string[] sampleData15 = {"sun", "bed", "car"};
+            // Console.WriteLine(Solution36.solution(sampleData15, 1));
+            // int[] sampleData16 = {1,5,2,6,3,7,4};
+            // int[,] sampleData17 = {{2, 5, 3,},{4, 4, 1},{1,7,3}};
+            // Console.WriteLine(Solution37.solution(sampleData16, sampleData17));
+            // int[] sampleData18 = {2,6,8,14};
+            // Console.WriteLine(Solution38.solution01(sampleData18));
+            // int[] sampleData19 = {2,1,3,4,1};
+            // Console.WriteLine(Solution39.solution(sampleData19));
+            // Console.WriteLine(Solution40.solution(8, 4, 7));
+            // int[] sampleData20 = {-2, 3, 0, 2, -5};
+            // Console.WriteLine(Solution41.solution(sampleData20));
+            //Console.WriteLine(Solution42.solution(5000));
+            //Console.WriteLine(Solution43.Solution(4));
+            //Console.WriteLine(Solution45.solution(5, 24));
+            #endregion
+            // int[,] sampleData20 = {{1, 4}, {3, 2}, {4, 1}};
+            // int[,] sampleData21 = {{3, 3}, {3, 3}};
+            // Console.WriteLine(Solution46.solution(sampleData20, sampleData21));
+            Console.WriteLine(Solution47.solution("[](){}"));
+
         }
 
         ///3진법 뒤집기

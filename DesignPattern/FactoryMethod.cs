@@ -19,6 +19,7 @@ namespace DesignPattern.FactoryMethod
         public abstract void move(string _strPoint);
         public abstract void Attacked(ref Unit _unitTarget);
     }
+    ///마린
     public class Marin : Unit
     {
         public Marin(string _strName)
@@ -38,6 +39,18 @@ namespace DesignPattern.FactoryMethod
         public override void move(string _strPoint)
         {
             Console.WriteLine($"{m_strName} : {_strPoint} 이동 완료");
+        }
+    }
+    public class Dropship : Unit
+    {
+        public override void Attacked(ref Unit _unitTarget)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void move(string _strPoint)
+        {
+            throw new NotImplementedException();
         }
     }
 

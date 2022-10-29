@@ -14,13 +14,13 @@ namespace DesignPattern.Singleton
                 Console.WriteLine("Objectes are the same instance");
             }
 
-            Console.ReadKey();
+            //Console.ReadKey();
         }
     }   
 
     public class Singleton
     {
-         static Singleton? instance {get; set;}
+        static Singleton? instance {get; set;}
          //생성자 만들기
         protected Singleton()
         {
