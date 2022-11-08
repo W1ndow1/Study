@@ -82,11 +82,13 @@ namespace app
             //Console.WriteLine(Solution42.solution(5000));
             //Console.WriteLine(Solution43.Solution(4));
             //Console.WriteLine(Solution45.solution(5, 24));
-            #endregion
             // int[,] sampleData20 = {{1, 4}, {3, 2}, {4, 1}};
             // int[,] sampleData21 = {{3, 3}, {3, 3}};
             // Console.WriteLine(Solution46.solution(sampleData20, sampleData21));
-            Console.WriteLine(Solution47.solution("[](){}"));
+            //Console.WriteLine(Solution47.solution("[](){}"));
+            #endregion
+            string[,] sampleData22 = {{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}};
+            Console.WriteLine(Solution48.solution(sampleData22));
 
         }
 
